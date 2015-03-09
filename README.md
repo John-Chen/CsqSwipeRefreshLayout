@@ -9,6 +9,7 @@ android-Ultra-Pull-to-Refresh：https://github.com/liaohuqiu/android-Ultra-Pull-
 
 
 CsqSwipeRefreshLayout使用步骤：
+
 1、implements ISwipeRefresh自定义一个顶部刷新的View，View的高度即为刷新的阀值，即下拉View的高度的距离，就会触发刷新：
 
 public class SwipeRefreshHeader extends FrameLayout implements ISwipeRefresh {
