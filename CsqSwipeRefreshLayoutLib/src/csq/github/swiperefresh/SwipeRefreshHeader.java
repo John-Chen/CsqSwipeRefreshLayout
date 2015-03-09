@@ -1,5 +1,5 @@
 /**
- * description :
+ * description : 顶部下拉刷新界面的一个实现
  * Created by csq E-mail:csqwyyx@163.com
  * github:https://github.com/John-Chen
  * 14-11-23
@@ -14,13 +14,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ProgressBar;
-import android.widget.TextView;
+import android.widget.*;
 import csq.github.swiperefresh.utils.DateUtil;
 
-public class SwipeRefreshHeader extends LinearLayout implements ISwipeRefresh {
+public class SwipeRefreshHeader extends FrameLayout implements ISwipeRefresh {
 
     // ------------------------ Constants ------------------------
 
