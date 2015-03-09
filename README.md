@@ -152,6 +152,7 @@ public class SwipeRefreshHeader extends FrameLayout implements ISwipeRefresh {
 
 
 2、布局中定义HeadView及TargetView：
+
 <csq.github.swiperefresh.CsqSwipeRefreshLayout
             android:id="@+id/lySwipeRefresh"
             android:layout_width="match_parent"
@@ -180,6 +181,7 @@ public class SwipeRefreshHeader extends FrameLayout implements ISwipeRefresh {
 
 
 3、设置刷新回调OnRefreshListener：
+
 lySwipeRefresh.setOnRefreshListener(refreshListener);
 
 private CsqSwipeRefreshLayout.OnRefreshListener refreshListener = new CsqSwipeRefreshLayout.OnRefreshListener() {
@@ -191,6 +193,7 @@ private CsqSwipeRefreshLayout.OnRefreshListener refreshListener = new CsqSwipeRe
     
 
 4、根据数据刷新加载状态，更新界面：
+
 private DataLoadListener<TestData> dataLoadListener = new DataLoadListener<TestData>() {
         @Override
         public void loadPre(int page) {
